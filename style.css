@@ -4,25 +4,22 @@ body{
 }
 .section-style{
     display: flex;
-   
 }
 #section-one{
     background-repeat: no-repeat;
     background-image: url(images/Background/top-banner.png);
-
 }
 #set-border{
     border-left: 3px solid;
-    border-color: blueviolet;
-    padding-left: 10px;
+    border-color: cornflowerblue;
+    border-radius: 5px;
+    padding-left: 15px;
     text-align: justify;
 }
 .div-style{
     width: 50%;
     margin-right: 5%;
     margin-left: 5%;
-   
-
 }
 div img{
     width: 80%;
@@ -32,8 +29,6 @@ div img{
     font-size: 20px;
     border-color: blueviolet;
     padding-left: 15px;
- 
-
 }
 .color-style{
     color: olivedrab;
@@ -41,4 +36,12 @@ div img{
 h1 {
     border-left: 10% solid;
     border-color: blue;}
+.link-button{
+    color:black;
+    border-radius: 10px;
+    padding: 15px;
+    background-image: linear-gradient(orange, tomato);
+    box-shadow: 5px 5px 5px blueviolet;
+    text-decoration: none;
+}
     
